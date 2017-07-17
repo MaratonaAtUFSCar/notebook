@@ -45,5 +45,5 @@ int LCA(int v, int u) {
 }
 
 ll dist(int a, int b) {
-	return h[a] + h[b] - 2 * h[ LCA(a, b) ];
+    return h[a] + h[b] - 2 * h[ LCA(a, b) ];
 }

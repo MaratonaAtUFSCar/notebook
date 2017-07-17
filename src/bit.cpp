@@ -4,7 +4,7 @@
 typedef long long ll;
 
 /*
-	- don't do add(0, v), query(0), query(0, r)
+    - don't do add(0, v), query(0), query(0, r)
 	- query(l, r) -> [l, r]
 */
 struct BIT {
